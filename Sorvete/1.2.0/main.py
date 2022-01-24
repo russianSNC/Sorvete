@@ -25,7 +25,6 @@ from PyInquirer import prompt
 from examples import custom_style_1
 from pyfiglet import Figlet
 from agradecimentos import agradecer
-from ato1 import ato1
 
 init()
 
@@ -104,7 +103,7 @@ def menu(first_time=False):
 
     if answer['choice'] == 'novo jogo':
         # russo continua daqui
-        ato1()
+        pass
 
     elif answer['choice'] == 'agradecimentos':
         agradecer()

@@ -16,13 +16,12 @@
 
 from termcolor import colored
 from time import sleep
+from headers import *
 
 # Função do menu
 
 def agradecer():
-    print(colored("""
-█▀█ █▄▄ █▀█ █ █▀▀ ▄▀█ █▀▄ █▀█
-█▄█ █▄█ █▀▄ █ █▄█ █▀█ █▄▀ █▄█""", "green"))
+    print(colored(obrigado, "green"))
 
     sleep(2.00)
     print('\nVitoria por ter me ajudado a relembrar meu passado \nsei que vc foi horrivel cmg, mas qq custa agradecer?')
